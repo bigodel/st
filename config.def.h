@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "monospace:size=13:antialias=true:autohint=true";
-static int borderpx = 0;
+static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static int borderpx = 2;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -100,7 +100,7 @@ static const char *colorname[] = {
 	"red3",
 	"green3",
 	"yellow3",
-	"#5c5cff",
+	"blue2",
 	"magenta3",
 	"cyan3",
 	"gray90",
